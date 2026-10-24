@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "coverage": {
+    "wikipedia_pageviews.csv": {
+      "rows": 3297,
+      "start": "2017-08-17",
+      "end": "2026-08-26",
+      "missing_dates": []
+    },
+    "google_trends_component.csv": {
+      "rows": 1849,
+      "start": "2021-08-04",
+      "end": "2026-08-26",
+      "missing_dates": []
+    },
+    "alternative_me_cfgi.csv": {
+      "rows": 3126,
+      "start": "2018-02-01",
+      "end": "2026-08-26",
+      "missing_dates": [
+        "2018-04-14",
+        "2018-04-15",
+        "2018-04-16"
+      ]
+    }
+  },
+  "archived_google_requests": 24,
+  "raw_google_query_rows": 14021,
+  "google_ratio_max_abs_difference": 8.326672684688674e-17,
+  "normalization_values_checked": 20218,
+  "normalization_max_abs_difference": 1.7573706934115307e-09,
+  "normalization_absolute_tolerance": 1e-08,
+  "scope": "Three components only, not full manuscript replication",
+  "independent_retained_source_matches": {
+    "wikipedia_views_bitcoin": 3297,
+    "cfgi": 3126
+  },
+  "fresh_network_requests": 0
+}

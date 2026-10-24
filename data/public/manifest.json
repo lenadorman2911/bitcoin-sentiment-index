@@ -1,0 +1,38 @@
+{
+  "package": "public study components add-on",
+  "proposed_release": "v0.1.2",
+  "frozen_combined_input_sha256": "0a07ba4e54987a3d44c086adcb1fe019d6743c3378a28a5cf43f7945a526b9cc",
+  "series": {
+    "wikipedia_pageviews.csv": {
+      "rows": 3297,
+      "start": "2017-08-17",
+      "end": "2026-08-26"
+    },
+    "google_trends_component.csv": {
+      "rows": 1849,
+      "start": "2021-08-04",
+      "end": "2026-08-26"
+    },
+    "alternative_me_cfgi.csv": {
+      "rows": 3126,
+      "start": "2018-02-01",
+      "end": "2026-08-26"
+    }
+  },
+  "license_note": "Source-specific terms; no blanket MIT data license",
+  "files": {
+    "data/public/README.md": "41f5b9ca3b4e56adb4582db592e56bafe000b326044441391171c15b5871ce44",
+    "data/public/alternative_me_cfgi.csv": "c7777c17d8b3f2937a01b6d1694cb4b38b4010edd2de333e48ebf3917792ea78",
+    "data/public/google_query_values.csv": "13a637013a7c4d1bf75da25770d186db6ad9f2bb77975713468c8e341502d979",
+    "data/public/google_requests.json": "6140205270ec402beb26867db093f7e6465d5e5cbc4a84f62bea213316db7ace",
+    "data/public/google_trends_component.csv": "afb497064c121a7a4bf9b66954097a282ee01305b26c29855abfcca716fb7dba",
+    "data/public/rolling_z_reference.csv": "ccfea7c42f5d1bacec963bf03486e4bec991ae0f1792c53911f1ae6d37d45dac",
+    "data/public/wikipedia_pageviews.csv": "99b2c71ba8a3ee17d7546a64fe991832662ba2512c63a3696f41342c5e52a845",
+    "docs/public-components/CODE_LICENSE.txt": "ff9816a0c1326c1360230ad735b1d13eab41ff33c7e2aa29f57f89ea4c81c60c",
+    "docs/public-components/DATA_COLLECTION.md": "05431f7cb4e95f0e3d643d9479f29237e556a0ed9b80127033f604f2b0e88268",
+    "docs/public-components/DATA_LICENSES.md": "56c59170f862fa75fe0553b7084ade1bb2c00182aca6879425d2ea6ed68a4e68",
+    "docs/public-components/RELEASE_NOTES_v0.1.2.md": "4d90659165167ecb2eaba60f8ac23badf51988ed96499f398d0ab9ecbf200616",
+    "docs/public-components/VALIDATION.json": "10a189f3eab351513f1979e79d96d9d699475598c5c9bae1df965a910a4fee01",
+    "scripts/check_public_components.py": "7c68dae863d5fb6b1bb3a8ffafc6e3fde6e41938f94d4823b65dd52ae1fe8b88"
+  }
+}

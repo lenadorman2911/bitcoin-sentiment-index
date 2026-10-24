@@ -1,0 +1,542 @@
+[
+  {
+    "request_id": "query_01",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "bitcoin price prediction",
+        "bitcoin ath"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2021-08-04",
+      "end": "2022-01-30",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "ba6305a8497e746a3269740e768a404f63774b4d2b7ff695fe44ba09703cb6a7",
+    "retrieved_at_utc": "2026-10-21T19:21:56.816684+00:00"
+  },
+  {
+    "request_id": "query_02",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "sell bitcoin",
+        "bitcoin crash",
+        "is bitcoin dead"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2021-08-04",
+      "end": "2022-01-30",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "20ef64a240fc4bd828660153fbae374100e703b35e0857ea14fcdad2769389d3",
+    "retrieved_at_utc": "2026-10-21T19:22:07.935332+00:00"
+  },
+  {
+    "request_id": "query_03",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "bitcoin price prediction",
+        "bitcoin ath"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2022-01-17",
+      "end": "2022-07-15",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "06f7f28d3fbe537fba8123a1ef7b6ef912dca8702f71cb5ec045ed0ff2301827",
+    "retrieved_at_utc": "2026-10-21T19:22:19.122658+00:00"
+  },
+  {
+    "request_id": "query_04",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "sell bitcoin",
+        "bitcoin crash",
+        "is bitcoin dead"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2022-01-17",
+      "end": "2022-07-15",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "24b1e8c1a70e32724ea1032b4c80074a3b8c15e38b4abcfb2f0df7ac5d47f485",
+    "retrieved_at_utc": "2026-10-21T19:22:30.234152+00:00"
+  },
+  {
+    "request_id": "query_05",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "bitcoin price prediction",
+        "bitcoin ath"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2022-07-02",
+      "end": "2022-12-28",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "cc6cb7768087d9b1f6498c59b9741fbe775ec953d7bdc55e07184563b4834b67",
+    "retrieved_at_utc": "2026-10-21T19:22:41.339033+00:00"
+  },
+  {
+    "request_id": "query_06",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "sell bitcoin",
+        "bitcoin crash",
+        "is bitcoin dead"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2022-07-02",
+      "end": "2022-12-28",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "48651827c8a4d4295582e48d48a07eead67312d8f078eeceb81c64c5ad1eac39",
+    "retrieved_at_utc": "2026-10-21T19:22:52.334348+00:00"
+  },
+  {
+    "request_id": "query_07",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "bitcoin price prediction",
+        "bitcoin ath"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2022-12-15",
+      "end": "2023-06-12",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "bfaa51814d75e6cc58882076cd5ccd6c8fb3e61a345bfc0b7f0d16388a08f126",
+    "retrieved_at_utc": "2026-10-21T19:23:03.417545+00:00"
+  },
+  {
+    "request_id": "query_08",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "sell bitcoin",
+        "bitcoin crash",
+        "is bitcoin dead"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2022-12-15",
+      "end": "2023-06-12",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "c1e63f48eefdef27fb29739e73795c16fb1bf7a89769254fee310bf192588614",
+    "retrieved_at_utc": "2026-10-21T19:23:14.567715+00:00"
+  },
+  {
+    "request_id": "query_09",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "bitcoin price prediction",
+        "bitcoin ath"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2023-05-30",
+      "end": "2023-11-25",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "814cce6abe4df9a4f8382b0491254155eaee638c2887893476c5acb921f4d462",
+    "retrieved_at_utc": "2026-10-21T19:23:25.719169+00:00"
+  },
+  {
+    "request_id": "query_10",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "sell bitcoin",
+        "bitcoin crash",
+        "is bitcoin dead"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2023-05-30",
+      "end": "2023-11-25",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "8055d916fa4b679000c70e73d90fe0eebb974159b695396aa73637af7329d8f7",
+    "retrieved_at_utc": "2026-10-21T19:23:36.826838+00:00"
+  },
+  {
+    "request_id": "query_11",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "bitcoin price prediction",
+        "bitcoin ath"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2023-11-12",
+      "end": "2024-05-09",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "a6c3a34b05e475933b24facba09b21b5c3f5aa35f8804a08e5a6e4570beb2af2",
+    "retrieved_at_utc": "2026-10-21T19:23:48.016057+00:00"
+  },
+  {
+    "request_id": "query_12",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "sell bitcoin",
+        "bitcoin crash",
+        "is bitcoin dead"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2023-11-12",
+      "end": "2024-05-09",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "be7f2f62767b08218ce58cb09af4a3dc6baf14ec95814d92b50c342cb21549c9",
+    "retrieved_at_utc": "2026-10-21T19:23:59.176952+00:00"
+  },
+  {
+    "request_id": "query_13",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "bitcoin price prediction",
+        "bitcoin ath"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2024-04-26",
+      "end": "2024-10-22",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "d7e09a711c06e073011ea8b6b06756e8e11d71ad669f54066bc0a706372c0b05",
+    "retrieved_at_utc": "2026-10-21T19:24:10.326149+00:00"
+  },
+  {
+    "request_id": "query_14",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "sell bitcoin",
+        "bitcoin crash",
+        "is bitcoin dead"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2024-04-26",
+      "end": "2024-10-22",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "902bcac909da8cf64ee4326c471b4f5173e60e4fd4b551b212ecbeaf277e651b",
+    "retrieved_at_utc": "2026-10-21T19:24:21.482435+00:00"
+  },
+  {
+    "request_id": "query_15",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "bitcoin price prediction",
+        "bitcoin ath"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2024-10-09",
+      "end": "2025-04-06",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "78f14074eaad260f8980d1c3233755efeb1747a31942e82d80d1621d34f868f2",
+    "retrieved_at_utc": "2026-10-21T19:24:32.743436+00:00"
+  },
+  {
+    "request_id": "query_16",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "sell bitcoin",
+        "bitcoin crash",
+        "is bitcoin dead"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2024-10-09",
+      "end": "2025-04-06",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "cb86dc47b701e2e72a5153c04aea7c122b9d997327682b36f6f06ccf51d93c77",
+    "retrieved_at_utc": "2026-10-21T19:24:43.908431+00:00"
+  },
+  {
+    "request_id": "query_17",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "bitcoin price prediction",
+        "bitcoin ath"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2025-03-24",
+      "end": "2025-09-19",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "6f0b248fd7dbc4bfa85379e8f785185a86246605ce8ef82c79588919011f0e04",
+    "retrieved_at_utc": "2026-10-21T19:24:55.035680+00:00"
+  },
+  {
+    "request_id": "query_18",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "sell bitcoin",
+        "bitcoin crash",
+        "is bitcoin dead"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2025-03-24",
+      "end": "2025-09-19",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "4e47624da8fc5f4889980ec2da9670c6dca6b0f203c3767fceb7e9bb641cc84c",
+    "retrieved_at_utc": "2026-10-21T19:25:06.149160+00:00"
+  },
+  {
+    "request_id": "query_19",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "bitcoin price prediction",
+        "bitcoin ath"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2025-09-06",
+      "end": "2026-03-04",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "f426f3cc421f14faa5c524ea0761c0cbc8f97fcaf52360bdf5a662fc7c4ab38d",
+    "retrieved_at_utc": "2026-10-21T19:25:17.160886+00:00"
+  },
+  {
+    "request_id": "query_20",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "sell bitcoin",
+        "bitcoin crash",
+        "is bitcoin dead"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2025-09-06",
+      "end": "2026-03-04",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "90f4bfd801cb07a8984794d4f227e93b3693c34b5de169b42387d2bee651be42",
+    "retrieved_at_utc": "2026-10-21T19:25:28.353803+00:00"
+  },
+  {
+    "request_id": "query_21",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "bitcoin price prediction",
+        "bitcoin ath"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2026-02-19",
+      "end": "2026-08-17",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "3486a675ec088fc2396cf176462accd8c6fc7b7f41f32dd5905e2ed5c2406b62",
+    "retrieved_at_utc": "2026-10-21T19:25:39.594244+00:00"
+  },
+  {
+    "request_id": "query_22",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "sell bitcoin",
+        "bitcoin crash",
+        "is bitcoin dead"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2026-02-19",
+      "end": "2026-08-17",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "4ebd60c3c37a33a7abf445208b555f27d6c8895d7ab265f8483a35c043242ba3",
+    "retrieved_at_utc": "2026-10-21T19:25:50.679848+00:00"
+  },
+  {
+    "request_id": "query_23",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "bitcoin price prediction",
+        "bitcoin ath"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2026-08-04",
+      "end": "2026-08-26",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "83d9fb6a576deb9d1b736fdabbfec389e5e77e4afa2e6204701ea50dc4d274f4",
+    "retrieved_at_utc": "2026-10-21T19:26:01.583663+00:00"
+  },
+  {
+    "request_id": "query_24",
+    "spec": {
+      "method": "google_common_anchor_daily_v2",
+      "queries": [
+        "buy bitcoin",
+        "sell bitcoin",
+        "bitcoin crash",
+        "is bitcoin dead"
+      ],
+      "anchor": "buy bitcoin",
+      "start": "2026-08-04",
+      "end": "2026-08-26",
+      "geo": "",
+      "hl": "en-US",
+      "tz": 0,
+      "gprop": "",
+      "category": 0,
+      "pytrends_version": "4.9.2"
+    },
+    "payload_hash": "31d0977402dab0f594bb5dcd5ad0be81badb384ed791a364626cd3a395aeb4be",
+    "retrieved_at_utc": "2026-10-21T19:26:12.463314+00:00"
+  }
+]
