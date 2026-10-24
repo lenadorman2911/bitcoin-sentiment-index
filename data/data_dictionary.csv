@@ -1,0 +1,183 @@
+column,description,units,role,normalization_window
+date,Daily observation date,ISO date,calendar,
+price,Bitcoin price,USD,market reference,
+return,Daily simple Bitcoin return,fraction,market reference,
+log_return,Daily logarithmic Bitcoin return,log fraction,target/calibration reference,
+volatility_30d,Thirty-day realized volatility,return units,market,
+volatility_7d,volatility 7d,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+momentum_7d,Seven-day price momentum,fraction,market,
+volume_btc,volume btc,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+volume_usdt,volume usdt,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+volume_usd_proxy,USD-denominated trading-volume proxy,USD proxy,market,
+tradecount,tradecount,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+volume_volatility_30d,volume volatility 30d,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+volume_ma_30,volume ma 30,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+volume_spike,volume spike,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+funding_rate,funding rate,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+funding_volatility,funding volatility,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+funding_zscore,Funding-rate z-score,standardized funding,derivatives,
+open_interest,open interest,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+liquidation_proxy,Absolute daily return multiplied by Bitcoin volume; not observed liquidations,return times BTC volume,derivatives,
+taker_buy_volume_ratio,Futures taker-buy volume share,ratio,derivatives; later-sample specification only,
+google_trends_bitcoin,google trends bitcoin,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+wikipedia_views_bitcoin,Bitcoin Wikipedia pageviews,count,behavioral,
+reddit_posts_count,reddit posts count,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+reddit_sentiment_score,Frozen legacy mean VADER compound score of retrieved posts,−1 to 1,behavioral,
+github_commits,Bitcoin Core commit activity,count,behavioral,
+btc_dominance_proxy,BTC-to-ETH price ratio; not market-cap dominance,ratio,market,
+usdt_dominance,USDT capitalization share within stablecoins,share as stored,market,
+dvol,Deribit Bitcoin implied-volatility index,index points,derivatives,
+vix,Archived US equity implied-volatility reference,index points,external control,
+cfgi,Published Alternative.me Crypto Fear and Greed Index,0–100,external benchmark,
+cmc_fgi,cmc fgi,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+price_z,price z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+price_rz_7,Rolling z-score of Bitcoin price,standard deviations,market reference,7
+price_rz_30,Rolling z-score of Bitcoin price,standard deviations,market reference,30
+price_rz_60,Rolling z-score of Bitcoin price,standard deviations,market reference,60
+price_rz_90,Rolling z-score of Bitcoin price,standard deviations,market reference,90
+return_z,return z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+return_rz_7,Rolling z-score of Daily simple Bitcoin return,standard deviations,market reference,7
+return_rz_30,Rolling z-score of Daily simple Bitcoin return,standard deviations,market reference,30
+return_rz_60,Rolling z-score of Daily simple Bitcoin return,standard deviations,market reference,60
+return_rz_90,Rolling z-score of Daily simple Bitcoin return,standard deviations,market reference,90
+log_return_z,log return z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+log_return_rz_7,Rolling z-score of Daily logarithmic Bitcoin return,standard deviations,target/calibration reference,7
+log_return_rz_30,Rolling z-score of Daily logarithmic Bitcoin return,standard deviations,target/calibration reference,30
+log_return_rz_60,Rolling z-score of Daily logarithmic Bitcoin return,standard deviations,target/calibration reference,60
+log_return_rz_90,Rolling z-score of Daily logarithmic Bitcoin return,standard deviations,target/calibration reference,90
+volatility_30d_z,volatility 30d z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+volatility_30d_rz_7,Rolling z-score of Thirty-day realized volatility,standard deviations,market,7
+volatility_30d_rz_30,Rolling z-score of Thirty-day realized volatility,standard deviations,market,30
+volatility_30d_rz_60,Rolling z-score of Thirty-day realized volatility,standard deviations,market,60
+volatility_30d_rz_90,Rolling z-score of Thirty-day realized volatility,standard deviations,market,90
+volatility_7d_z,volatility 7d z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+volatility_7d_rz_7,Rolling z-score of volatility 7d,standard deviations,candidate/reference; not necessarily retained,7
+volatility_7d_rz_30,Rolling z-score of volatility 7d,standard deviations,candidate/reference; not necessarily retained,30
+volatility_7d_rz_60,Rolling z-score of volatility 7d,standard deviations,candidate/reference; not necessarily retained,60
+volatility_7d_rz_90,Rolling z-score of volatility 7d,standard deviations,candidate/reference; not necessarily retained,90
+momentum_7d_z,momentum 7d z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+momentum_7d_rz_7,Rolling z-score of Seven-day price momentum,standard deviations,market,7
+momentum_7d_rz_30,Rolling z-score of Seven-day price momentum,standard deviations,market,30
+momentum_7d_rz_60,Rolling z-score of Seven-day price momentum,standard deviations,market,60
+momentum_7d_rz_90,Rolling z-score of Seven-day price momentum,standard deviations,market,90
+volume_btc_z,volume btc z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+volume_btc_rz_7,Rolling z-score of volume btc,standard deviations,candidate/reference; not necessarily retained,7
+volume_btc_rz_30,Rolling z-score of volume btc,standard deviations,candidate/reference; not necessarily retained,30
+volume_btc_rz_60,Rolling z-score of volume btc,standard deviations,candidate/reference; not necessarily retained,60
+volume_btc_rz_90,Rolling z-score of volume btc,standard deviations,candidate/reference; not necessarily retained,90
+volume_usdt_z,volume usdt z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+volume_usdt_rz_7,Rolling z-score of volume usdt,standard deviations,candidate/reference; not necessarily retained,7
+volume_usdt_rz_30,Rolling z-score of volume usdt,standard deviations,candidate/reference; not necessarily retained,30
+volume_usdt_rz_60,Rolling z-score of volume usdt,standard deviations,candidate/reference; not necessarily retained,60
+volume_usdt_rz_90,Rolling z-score of volume usdt,standard deviations,candidate/reference; not necessarily retained,90
+volume_usd_proxy_z,volume usd proxy z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+volume_usd_proxy_rz_7,Rolling z-score of USD-denominated trading-volume proxy,standard deviations,market,7
+volume_usd_proxy_rz_30,Rolling z-score of USD-denominated trading-volume proxy,standard deviations,market,30
+volume_usd_proxy_rz_60,Rolling z-score of USD-denominated trading-volume proxy,standard deviations,market,60
+volume_usd_proxy_rz_90,Rolling z-score of USD-denominated trading-volume proxy,standard deviations,market,90
+tradecount_z,tradecount z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+tradecount_rz_7,Rolling z-score of tradecount,standard deviations,candidate/reference; not necessarily retained,7
+tradecount_rz_30,Rolling z-score of tradecount,standard deviations,candidate/reference; not necessarily retained,30
+tradecount_rz_60,Rolling z-score of tradecount,standard deviations,candidate/reference; not necessarily retained,60
+tradecount_rz_90,Rolling z-score of tradecount,standard deviations,candidate/reference; not necessarily retained,90
+volume_volatility_30d_z,volume volatility 30d z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+volume_volatility_30d_rz_7,Rolling z-score of volume volatility 30d,standard deviations,candidate/reference; not necessarily retained,7
+volume_volatility_30d_rz_30,Rolling z-score of volume volatility 30d,standard deviations,candidate/reference; not necessarily retained,30
+volume_volatility_30d_rz_60,Rolling z-score of volume volatility 30d,standard deviations,candidate/reference; not necessarily retained,60
+volume_volatility_30d_rz_90,Rolling z-score of volume volatility 30d,standard deviations,candidate/reference; not necessarily retained,90
+volume_ma_30_z,volume ma 30 z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+volume_ma_30_rz_7,Rolling z-score of volume ma 30,standard deviations,candidate/reference; not necessarily retained,7
+volume_ma_30_rz_30,Rolling z-score of volume ma 30,standard deviations,candidate/reference; not necessarily retained,30
+volume_ma_30_rz_60,Rolling z-score of volume ma 30,standard deviations,candidate/reference; not necessarily retained,60
+volume_ma_30_rz_90,Rolling z-score of volume ma 30,standard deviations,candidate/reference; not necessarily retained,90
+volume_spike_z,volume spike z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+volume_spike_rz_7,Rolling z-score of volume spike,standard deviations,candidate/reference; not necessarily retained,7
+volume_spike_rz_30,Rolling z-score of volume spike,standard deviations,candidate/reference; not necessarily retained,30
+volume_spike_rz_60,Rolling z-score of volume spike,standard deviations,candidate/reference; not necessarily retained,60
+volume_spike_rz_90,Rolling z-score of volume spike,standard deviations,candidate/reference; not necessarily retained,90
+funding_rate_z,funding rate z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+funding_rate_rz_7,Rolling z-score of funding rate,standard deviations,candidate/reference; not necessarily retained,7
+funding_rate_rz_30,Rolling z-score of funding rate,standard deviations,candidate/reference; not necessarily retained,30
+funding_rate_rz_60,Rolling z-score of funding rate,standard deviations,candidate/reference; not necessarily retained,60
+funding_rate_rz_90,Rolling z-score of funding rate,standard deviations,candidate/reference; not necessarily retained,90
+funding_volatility_z,funding volatility z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+funding_volatility_rz_7,Rolling z-score of funding volatility,standard deviations,candidate/reference; not necessarily retained,7
+funding_volatility_rz_30,Rolling z-score of funding volatility,standard deviations,candidate/reference; not necessarily retained,30
+funding_volatility_rz_60,Rolling z-score of funding volatility,standard deviations,candidate/reference; not necessarily retained,60
+funding_volatility_rz_90,Rolling z-score of funding volatility,standard deviations,candidate/reference; not necessarily retained,90
+funding_zscore_z,funding zscore z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+funding_zscore_rz_7,Rolling z-score of Funding-rate z-score,standard deviations,derivatives,7
+funding_zscore_rz_30,Rolling z-score of Funding-rate z-score,standard deviations,derivatives,30
+funding_zscore_rz_60,Rolling z-score of Funding-rate z-score,standard deviations,derivatives,60
+funding_zscore_rz_90,Rolling z-score of Funding-rate z-score,standard deviations,derivatives,90
+open_interest_z,open interest z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+open_interest_rz_7,Rolling z-score of open interest,standard deviations,candidate/reference; not necessarily retained,7
+open_interest_rz_30,Rolling z-score of open interest,standard deviations,candidate/reference; not necessarily retained,30
+open_interest_rz_60,Rolling z-score of open interest,standard deviations,candidate/reference; not necessarily retained,60
+open_interest_rz_90,Rolling z-score of open interest,standard deviations,candidate/reference; not necessarily retained,90
+liquidation_proxy_z,liquidation proxy z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+liquidation_proxy_rz_7,Rolling z-score of Absolute daily return multiplied by Bitcoin volume; not observed liquidations,standard deviations,derivatives,7
+liquidation_proxy_rz_30,Rolling z-score of Absolute daily return multiplied by Bitcoin volume; not observed liquidations,standard deviations,derivatives,30
+liquidation_proxy_rz_60,Rolling z-score of Absolute daily return multiplied by Bitcoin volume; not observed liquidations,standard deviations,derivatives,60
+liquidation_proxy_rz_90,Rolling z-score of Absolute daily return multiplied by Bitcoin volume; not observed liquidations,standard deviations,derivatives,90
+taker_buy_volume_ratio_z,taker buy volume ratio z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+taker_buy_volume_ratio_rz_7,Rolling z-score of Futures taker-buy volume share,standard deviations,derivatives; later-sample specification only,7
+taker_buy_volume_ratio_rz_30,Rolling z-score of Futures taker-buy volume share,standard deviations,derivatives; later-sample specification only,30
+taker_buy_volume_ratio_rz_60,Rolling z-score of Futures taker-buy volume share,standard deviations,derivatives; later-sample specification only,60
+taker_buy_volume_ratio_rz_90,Rolling z-score of Futures taker-buy volume share,standard deviations,derivatives; later-sample specification only,90
+google_trends_bitcoin_z,google trends bitcoin z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+google_trends_bitcoin_rz_7,Rolling z-score of google trends bitcoin,standard deviations,candidate/reference; not necessarily retained,7
+google_trends_bitcoin_rz_30,Rolling z-score of google trends bitcoin,standard deviations,candidate/reference; not necessarily retained,30
+google_trends_bitcoin_rz_60,Rolling z-score of google trends bitcoin,standard deviations,candidate/reference; not necessarily retained,60
+google_trends_bitcoin_rz_90,Rolling z-score of google trends bitcoin,standard deviations,candidate/reference; not necessarily retained,90
+wikipedia_views_bitcoin_z,wikipedia views bitcoin z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+wikipedia_views_bitcoin_rz_7,Rolling z-score of Bitcoin Wikipedia pageviews,standard deviations,behavioral,7
+wikipedia_views_bitcoin_rz_30,Rolling z-score of Bitcoin Wikipedia pageviews,standard deviations,behavioral,30
+wikipedia_views_bitcoin_rz_60,Rolling z-score of Bitcoin Wikipedia pageviews,standard deviations,behavioral,60
+wikipedia_views_bitcoin_rz_90,Rolling z-score of Bitcoin Wikipedia pageviews,standard deviations,behavioral,90
+reddit_posts_count_z,reddit posts count z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+reddit_posts_count_rz_7,Rolling z-score of reddit posts count,standard deviations,candidate/reference; not necessarily retained,7
+reddit_posts_count_rz_30,Rolling z-score of reddit posts count,standard deviations,candidate/reference; not necessarily retained,30
+reddit_posts_count_rz_60,Rolling z-score of reddit posts count,standard deviations,candidate/reference; not necessarily retained,60
+reddit_posts_count_rz_90,Rolling z-score of reddit posts count,standard deviations,candidate/reference; not necessarily retained,90
+reddit_sentiment_score_z,reddit sentiment score z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+reddit_sentiment_score_rz_7,Rolling z-score of Frozen legacy mean VADER compound score of retrieved posts,standard deviations,behavioral,7
+reddit_sentiment_score_rz_30,Rolling z-score of Frozen legacy mean VADER compound score of retrieved posts,standard deviations,behavioral,30
+reddit_sentiment_score_rz_60,Rolling z-score of Frozen legacy mean VADER compound score of retrieved posts,standard deviations,behavioral,60
+reddit_sentiment_score_rz_90,Rolling z-score of Frozen legacy mean VADER compound score of retrieved posts,standard deviations,behavioral,90
+github_commits_z,github commits z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+github_commits_rz_7,Rolling z-score of Bitcoin Core commit activity,standard deviations,behavioral,7
+github_commits_rz_30,Rolling z-score of Bitcoin Core commit activity,standard deviations,behavioral,30
+github_commits_rz_60,Rolling z-score of Bitcoin Core commit activity,standard deviations,behavioral,60
+github_commits_rz_90,Rolling z-score of Bitcoin Core commit activity,standard deviations,behavioral,90
+btc_dominance_proxy_z,btc dominance proxy z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+btc_dominance_proxy_rz_7,Rolling z-score of BTC-to-ETH price ratio; not market-cap dominance,standard deviations,market,7
+btc_dominance_proxy_rz_30,Rolling z-score of BTC-to-ETH price ratio; not market-cap dominance,standard deviations,market,30
+btc_dominance_proxy_rz_60,Rolling z-score of BTC-to-ETH price ratio; not market-cap dominance,standard deviations,market,60
+btc_dominance_proxy_rz_90,Rolling z-score of BTC-to-ETH price ratio; not market-cap dominance,standard deviations,market,90
+usdt_dominance_z,usdt dominance z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+usdt_dominance_rz_7,Rolling z-score of USDT capitalization share within stablecoins,standard deviations,market,7
+usdt_dominance_rz_30,Rolling z-score of USDT capitalization share within stablecoins,standard deviations,market,30
+usdt_dominance_rz_60,Rolling z-score of USDT capitalization share within stablecoins,standard deviations,market,60
+usdt_dominance_rz_90,Rolling z-score of USDT capitalization share within stablecoins,standard deviations,market,90
+dvol_z,dvol z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+dvol_rz_7,Rolling z-score of Deribit Bitcoin implied-volatility index,standard deviations,derivatives,7
+dvol_rz_30,Rolling z-score of Deribit Bitcoin implied-volatility index,standard deviations,derivatives,30
+dvol_rz_60,Rolling z-score of Deribit Bitcoin implied-volatility index,standard deviations,derivatives,60
+dvol_rz_90,Rolling z-score of Deribit Bitcoin implied-volatility index,standard deviations,derivatives,90
+cfgi_z,cfgi z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+cfgi_rz_7,Rolling z-score of Published Alternative.me Crypto Fear and Greed Index,standard deviations,external benchmark,7
+cfgi_rz_30,Rolling z-score of Published Alternative.me Crypto Fear and Greed Index,standard deviations,external benchmark,30
+cfgi_rz_60,Rolling z-score of Published Alternative.me Crypto Fear and Greed Index,standard deviations,external benchmark,60
+cfgi_rz_90,Rolling z-score of Published Alternative.me Crypto Fear and Greed Index,standard deviations,external benchmark,90
+cmc_fgi_z,cmc fgi z,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+cmc_fgi_rz_7,Rolling z-score of cmc fgi,standard deviations,candidate/reference; not necessarily retained,7
+cmc_fgi_rz_30,Rolling z-score of cmc fgi,standard deviations,candidate/reference; not necessarily retained,30
+cmc_fgi_rz_60,Rolling z-score of cmc fgi,standard deviations,candidate/reference; not necessarily retained,60
+cmc_fgi_rz_90,Rolling z-score of cmc fgi,standard deviations,candidate/reference; not necessarily retained,90
+google_trends_sentiment_ratio_legacy,google trends sentiment ratio legacy,as stored; not necessarily used,"additional candidate, legacy transform or external reference; see actual component definitions",
+google_trends_sentiment_ratio,Common-anchor greed–fear query ratio,−1 to 1,behavioral,
+google_trends_sentiment_ratio_rz_7,Rolling z-score of Common-anchor greed–fear query ratio,standard deviations,behavioral,7
+google_trends_sentiment_ratio_rz_30,Rolling z-score of Common-anchor greed–fear query ratio,standard deviations,behavioral,30
+google_trends_sentiment_ratio_rz_60,Rolling z-score of Common-anchor greed–fear query ratio,standard deviations,behavioral,60
+google_trends_sentiment_ratio_rz_90,Rolling z-score of Common-anchor greed–fear query ratio,standard deviations,behavioral,90

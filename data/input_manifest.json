@@ -1,0 +1,10 @@
+{
+  "filename": "analysis_input.csv",
+  "sha256": "0a07ba4e54987a3d44c086adcb1fe019d6743c3378a28a5cf43f7945a526b9cc",
+  "rows": 3297,
+  "start": "2017-08-17",
+  "end": "2026-08-26",
+  "google_variant": "Common-anchor ratio; first observation retained in overlaps",
+  "reddit_variant": "Frozen legacy daily aggregate and normalized features",
+  "included_in_public_repository": false
+}

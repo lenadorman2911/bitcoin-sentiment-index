@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite it. A journal-article citation will be added after publication."
+title: "Bitcoin Sentiment Index Research Code"
+type: software
+version: 0.1.1
+date-released: 2026-10-24
+authors:
+  - family-names: Dorman
+    given-names: Elena
+license: MIT

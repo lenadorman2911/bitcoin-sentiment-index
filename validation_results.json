@@ -1,0 +1,163 @@
+{
+  "status": "passed",
+  "comparisons": [
+    {
+      "file": "expanded/parameters.csv",
+      "rows": 9344,
+      "numeric_columns": 10,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "expanded/calibration.csv",
+      "rows": 1024,
+      "numeric_columns": 17,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "expanded/training_thresholds.csv",
+      "rows": 1538,
+      "numeric_columns": 5,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "expanded/mask_mapping.csv",
+      "rows": 160,
+      "numeric_columns": 2,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "expanded/primary_metrics.csv",
+      "rows": 1541,
+      "numeric_columns": 14,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "expanded/strategy_metrics_all_sensitivities.csv",
+      "rows": 30775,
+      "numeric_columns": 14,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "expanded/crisis_diagnostics.csv",
+      "rows": 1152,
+      "numeric_columns": 6,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "expanded/cronbach_alpha.csv",
+      "rows": 512,
+      "numeric_columns": 5,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "expanded/common_method_correlations.csv",
+      "rows": 9216,
+      "numeric_columns": 6,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "expanded/fixed_window_events.csv",
+      "rows": 58656,
+      "numeric_columns": 7,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "expanded/no_future_checks.csv",
+      "rows": 20,
+      "numeric_columns": 6,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "expanded/statistical_tests.csv",
+      "rows": 172256,
+      "numeric_columns": 34,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "expanded/baseline_daily_indices.csv",
+      "rows": 395640,
+      "numeric_columns": 4,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "expanded/ce_comparisons_bootstrap.csv",
+      "rows": 22860,
+      "numeric_columns": 10,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "expanded/correlation_changes_bootstrap.csv",
+      "rows": 9036,
+      "numeric_columns": 10,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "monthly/monthly_metrics.csv",
+      "rows": 20,
+      "numeric_columns": 17,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "monthly/monthly_weights.csv",
+      "rows": 4400,
+      "numeric_columns": 7,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "monthly/monthly_series.csv",
+      "rows": 12060,
+      "numeric_columns": 6,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "period_stability/slope_change_results.csv",
+      "rows": 768,
+      "numeric_columns": 22,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "period_stability/pooled_separate_checks.csv",
+      "rows": 128,
+      "numeric_columns": 4,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "returns/forecast_metrics.csv",
+      "rows": 40960,
+      "numeric_columns": 14,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "returns/forecast_tests.csv",
+      "rows": 57344,
+      "numeric_columns": 12,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "risk/risk_metrics.csv",
+      "rows": 49152,
+      "numeric_columns": 25,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "file": "risk/risk_tests.csv",
+      "rows": 110592,
+      "numeric_columns": 13,
+      "max_absolute_numeric_difference": 0.0
+    }
+  ],
+  "issues": [],
+  "absolute_tolerance": 1e-10,
+  "relative_tolerance": 1e-08,
+  "input_unchanged": true,
+  "comment_cleanup": {
+    "python_files": 21,
+    "comments_removed": 25,
+    "docstrings_removed": 30,
+    "executable_ast_unchanged": true
+  },
+  "unit_tests_passed": 5,
+  "cleaned_release_baseline_passed": true,
+  "validation_date": "2026-10-24",
+  "full_run_before_comment_cleanup": true
+}

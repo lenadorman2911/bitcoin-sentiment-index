@@ -1,0 +1,32 @@
+                                                                       
+
+
+REGISTRY=[
+ dict(key='luna',old='2022-05-11',proposed='2022-05-09',name='Terra/UST run: episode anchor',kind='crypto_crisis_episode',
+      source='https://www.chicagofed.org/-/media/publications/chicago-fed-letter/2023/cfl479.pdf?sc_lang=en',
+      fix='May 11 is a snapshot inside a multi-day collapse, not a demonstrated onset. May 9 is the published run-period anchor; report original May 11 as sensitivity. Exact intraday onset remains unresolved.'),
+ dict(key='celsius',old='2022-06-15',proposed='2022-06-12',name='Celsius withdrawal pause',kind='platform_withdrawal_pause',
+      source='https://www.cftc.gov/PressRoom/PressReleases/8749-23',
+      fix='Replace conflated 3AC/Celsius collapse with a defined Celsius pause. Official sources date it June 12; late US evening reporting corresponds to June 13 UTC. Include June 13 sensitivity; do not silently use June 15 or call 3AC the same event.'),
+ dict(key='ftx',old='2022-11-08',proposed='2022-11-08',name='FTX international withdrawal pause',kind='platform_withdrawal_pause',
+      source='https://www.chicagofed.org/-/media/publications/chicago-fed-letter/2023/cfl479.pdf?sc_lang=en',
+      fix='November 8 is the international-platform withdrawal pause, not the Chapter 11 filing, which occurred November 11. Rename the event and retain date.'),
+ dict(key='svb',old='2023-03-11',proposed='2023-03-10',name='SVB closure and FDIC receivership',kind='bank_failure',
+      source='https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/silicon-valley.html',
+      fix='Use March 10 for bank closure. March 11/12 crypto or USDC response is a different milestone. Do not label the bank failure itself a BTC rally or assert flight-to-crypto causality.'),
+ dict(key='etf',old='2024-01-11',proposed='2024-01-10',name='SEC approval of spot Bitcoin ETPs',kind='regulatory_approval',
+      source='https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023',
+      fix='Approval occurred January 10; January 11 is trading launch. Regulatory approval is not a crash category. Keep a neutral event label and report actual returns separately.'),
+ dict(key='carry',old='2024-08-05',proposed='2024-08-05',name='August market turbulence / carry-trade unwind',kind='market_stress_episode',
+      source='https://www.bis.org/publications/bulletin-90-market-turbulence-and-carry-trade-unwind-august-2024',
+      fix='Retain August 5 episode date; attach BIS source. Do not claim all BTC movement was caused solely by yen carry unwinding.'),
+ dict(key='election',old='2024-11-06',proposed='2024-11-05',name='US presidential election day',kind='scheduled_election',
+      source='https://www.fec.gov/updates/election-day-is-tuesday-november-5/',
+      fix='Election day is November 5; November 6 result/victory announcement is a separate anchor requiring its own publication timestamp. Report old date as sensitivity, not interchangeable election day.'),
+ dict(key='feb2026',old='2026-02-05',proposed='2026-02-05',name='BTC selloff on February 5, 2026',kind='return_selected_market_episode',
+      source='https://www.vaneck.com/us/en/blogs/digital-assets/matthew-sigel-what-triggered-bitcoins-major-selloff-in-february-2026/',
+      fix='The selloff is documented; retain exact date and source. It is a price-selected market episode, not a separately identified exogenous shock; no confirmed single cause is inferred.'),
+ dict(key='jun2026',old='2026-06-02',proposed='2026-06-02',name='BTC break below $70,000 on June 2, 2026',kind='return_selected_market_episode',
+      source='https://www.theblock.co/news/markets/2026-06-02-materially-softer-demand-bitcoin-hits-two-month-low-below-69000-amid-institutional-outflow-streak-fading-onchain-interest-403356',
+      fix='Documented price break, not an operationally defined volatility cluster. Rename, cite the dated price report, and keep separate from exogenous news events. No liquidity/ETF causality is established by this audit.'),
+]

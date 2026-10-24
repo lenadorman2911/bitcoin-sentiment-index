@@ -1,0 +1,146 @@
+{
+  "modules": [
+    {
+      "module": "scripts/build_cw_index_versions.py",
+      "source_filename": "build_cw_index_versions.py",
+      "source_sha256": "c82aed905b8fa664a7f491d374ab02b5f7f71801731f87a69c330100c33f6fd0",
+      "functions": [
+        "rz_col",
+        "to_score_0_100",
+        "flatten_components",
+        "compute_stress",
+        "build_ew_index",
+        "compute_cw_weights",
+        "apply_cw_weights"
+      ],
+      "constants": [
+        "WINDOWS",
+        "WARMUP_DAYS",
+        "STRESS_QUANTILE",
+        "MIN_OBS",
+        "SAMPLES",
+        "VERSIONS"
+      ]
+    },
+    {
+      "module": "reproduction/test_out_of_sample.py",
+      "source_filename": "test_out_of_sample.py",
+      "source_sha256": "6f06fbeaa5292cd0cebb8f3fecec688f37089a9c22abcdd9111a7e50d7c91375",
+      "functions": [
+        "fit_weights",
+        "evaluate"
+      ],
+      "constants": []
+    },
+    {
+      "module": "reproduction/test_pca_momentum_baselines.py",
+      "source_filename": "test_pca_momentum_baselines.py",
+      "source_sha256": "2829718849c5692b45745a7fda0f70e8722d66ecffbc68f9e7619cc7a414de75",
+      "functions": [
+        "fit_pca",
+        "apply_pca"
+      ],
+      "constants": []
+    },
+    {
+      "module": "reproduction/test_investment_value.py",
+      "source_filename": "test_investment_value.py",
+      "source_sha256": "a604e4961595c99ebd62acfb5b50109a87bc3c7bc7800098eff7a56886492eeb",
+      "functions": [
+        "simulate",
+        "metrics",
+        "self_tests"
+      ],
+      "constants": []
+    },
+    {
+      "module": "reproduction/test_newey_west.py",
+      "source_filename": "test_newey_west.py",
+      "source_sha256": "7d72bbeffacfcde4ea33bdcae3bf16339351b103a9b7c810ffa8774e97c2f04f",
+      "functions": [
+        "calendar_hac"
+      ],
+      "constants": []
+    },
+    {
+      "module": "reproduction/test_period_stability.py",
+      "source_filename": "test_period_stability.py",
+      "source_sha256": "a5258136133318b2c3b6671e866457654849cbf57feb5786f7a9d336d44ba628",
+      "functions": [
+        "contrast"
+      ],
+      "constants": []
+    },
+    {
+      "module": "reproduction/audit_event_windows.py",
+      "source_filename": "audit_event_windows.py",
+      "source_sha256": "9a90c856174e35704db901fb33e4288cc8a0831f8883a393355b8251b75f4894",
+      "functions": [],
+      "constants": [
+        "REGISTRY"
+      ]
+    },
+    {
+      "module": "reproduction/reproduce.py",
+      "source_filename": "reproduce.py",
+      "source_sha256": "7285e115f30f990100eb28457b359b89d1c1225a3afee368da260f0bad8120cb",
+      "functions": [
+        "digest",
+        "fingerprint"
+      ],
+      "constants": []
+    },
+    {
+      "module": "expanded_component_tests.py",
+      "source_filename": "expanded_component_tests.py",
+      "source_sha256": "c6c6ec02a90b86ddd38ce1caa2614b8ad3a8447a7a3214317139d9017b0c8035",
+      "adaptations": [
+        "Relative repository paths",
+        "Removed obsolete cross-run reproduction check",
+        "Removed unused legacy guard import; source hashes still verified"
+      ],
+      "estimators_unchanged": true
+    },
+    {
+      "module": "bootstrap_expanded_components.py",
+      "source_filename": "bootstrap_expanded_components.py",
+      "source_sha256": "6bb90f8d3b19d0cbb09507bda69fa3566fe31f73045679c1f05a2c2ec8fed93d",
+      "adaptations": [
+        "Portable default paths only"
+      ],
+      "estimators_unchanged": true
+    },
+    {
+      "module": "test_true_return_forecasts.py",
+      "source_filename": "test_true_return_forecasts.py",
+      "source_sha256": "6f41ac6a98938733b5e4b51752d6c60888ad5783b2a28d225e493e889b5e7c69",
+      "adaptations": [
+        "Portable default paths only"
+      ],
+      "estimators_unchanged": true
+    },
+    {
+      "module": "test_risk_forecasts.py",
+      "source_filename": "test_risk_forecasts.py",
+      "source_sha256": "603b9a000d3f061a22d3c6dca443f9d328431bff58c5309af51087b44d149347",
+      "adaptations": [
+        "Portable default paths only"
+      ],
+      "estimators_unchanged": true
+    },
+    {
+      "module": "supplementary.py",
+      "source_filename": "run_all.py",
+      "source_sha256": "a18b597e310ef3d8307ef505df1e7fa007d40c294fd522d437405c55fbf14b5b",
+      "functions": [
+        "input_diagnostics",
+        "baseline_daily_indices",
+        "period_stability",
+        "quantile_rechecks",
+        "monthly_chronology"
+      ],
+      "constants": []
+    }
+  ],
+  "notes": "Source hashes identify implementation provenance; this release does not distribute source data or manuscripts."
+}
