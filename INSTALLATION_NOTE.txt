@@ -1,0 +1,5 @@
+Prepared documentation additions; not yet published to GitHub.
+
+Copy docs/ into the repository root, reviewing any existing files with the same names first. Insert the paragraph in README_ADDITION.md into the repository README.md. Keep existing code, data, and reference parameters unchanged. Do not replace an archived release or its manifest: if publishing an updated release, regenerate that release's manifest using the project's release process.
+
+The source was the local bitcoin-sentiment-index-main copy. Live GitHub state could not be verified in this session. Confirm that the four source hashes in docs/DOCUMENTATION_AUDIT.json match the intended repository version before publishing. If they differ, regenerate the readable extracts from the intended version.

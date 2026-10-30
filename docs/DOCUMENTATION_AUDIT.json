@@ -1,0 +1,22 @@
+{
+  "scope": "Documentation-only checks against a local repository copy; live GitHub state not verified.",
+  "source_sha256": {
+    "data/data_dictionary.csv": "d065d095f2e1f50199f8eab4a763b3d5bea4116a8d27edd170447ed3383059e2",
+    "reference/parameters.csv": "caf67274051973837f433447b61d5da858807546f1f553e9402d7e80f3cb2364",
+    "collectors/crypto_lexicon.py": "7a82b68910dca2c159c26c1e1805dff21524673b45221f61df344e0043d5d3bb",
+    "collectors/legacy_reddit_definition.py": "40fd39157373b5151c106c334908fd765e4c3e8f96bb52a0bb229523d6c1c858"
+  },
+  "dictionary_rows": 182,
+  "all_parameter_rows": 9344,
+  "original_specification_groups": 40,
+  "original_specification_parameter_rows": 440,
+  "normalization_windows": [
+    7,
+    30,
+    60,
+    90
+  ],
+  "max_group_weight_sum_error": 2.220446049250313e-16,
+  "lexicon_entries": 36,
+  "new_empirical_analyses": false
+}
