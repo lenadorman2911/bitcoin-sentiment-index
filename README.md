@@ -76,5 +76,8 @@ The optional Google collector documents the common-anchor procedure. A live quer
 
 Original project code is provided under MIT; see `LICENSE`. Third-party software and datasets retain their own terms. No license to redistribute third-party data is implied. Please cite the software using `CITATION.cff`; an article DOI can be added after publication. Citation is requested but is not a condition added to MIT.
 
-##Reviewer guide
-For direct links to the data dictionary, archived weights, Google/Reddit definitions, validation records, and data-access limitations, see Reproducibility guide for reviewers. Readable extracts provide original-specification CW weights and all 36 archived Reddit lexicon additions. These extracts document existing definitions and parameters; they add no new empirical results.
+## Reviewer guide
+
+- [Reproducibility guide for reviewers](docs/REVIEWER_GUIDE.md)
+- [CW weights for all original specifications](docs/CW_BASELINE_WEIGHTS.md)
+- [Reddit lexicon: all 36 additions and scores](docs/REDDIT_LEXICON.md)
