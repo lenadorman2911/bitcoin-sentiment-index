@@ -1,0 +1,24 @@
+{
+  "prepared_input": {
+    "filename": "analysis_input.csv",
+    "sha256": "0a07ba4e54987a3d44c086adcb1fe019d6743c3378a28a5cf43f7945a526b9cc",
+    "rows": 3297,
+    "start": "2017-08-17",
+    "end": "2026-08-26",
+    "distributed": false
+  },
+  "original_directed_volume_file": {
+    "filename": "binance_directed_volume_daily.csv",
+    "sha256": "f50eea2ae4691d227d09ed6638ec8083cbccdb1edde33e866f8c0ef5e4c2b275",
+    "rows": 5727,
+    "distributed": false,
+    "note": "Contains distinct spot and futures rows; only spot is used by the primary replacement."
+  },
+  "archive_collection_date": "2026-10-25",
+  "spot_archives": 109,
+  "reference_origin": "Selected from archived component diagnostic on 25 October 2026",
+  "source_hashes": {
+    "crisis_readings_all_variants.csv": "4a3b4bfce07e7b436f2b98b25858438665f0cfe48a3fa739ed53934984f3c518",
+    "component_weights.csv": "a624ce12ab9f326e8ca42d681c597178af6a4003219521a784a8069bd2859c7e"
+  }
+}

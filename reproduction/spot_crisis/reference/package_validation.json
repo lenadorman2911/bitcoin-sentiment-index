@@ -1,0 +1,26 @@
+{
+  "checked_date": "2026-11-08",
+  "status": "passed",
+  "scope": "Portable primary spot-crisis extension only",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "tests_passed": 4,
+  "archive_files_checked_offline": 109,
+  "spot_daily_rows_reconstructed": 3297,
+  "spot_csv_sha256": "8e013cd7929bcca674f452bf690699c50f1068d18d9eeeaee2bca5ac78ac9278",
+  "prepared_input_sha256": "0a07ba4e54987a3d44c086adcb1fe019d6743c3378a28a5cf43f7945a526b9cc",
+  "crisis_results_checked": 6,
+  "component_weights_checked": 26,
+  "maximum_absolute_errors": {
+    "score": 0.0,
+    "raw_index": 1.5543122344752192e-15,
+    "weight": 8.326672684688674e-17
+  },
+  "matches_using_original_collection_and_reconstructed_archives": true,
+  "live_network_download_tested": false,
+  "full_existing_statistical_suite_rerun": false,
+  "combined_input_distributed": false,
+  "raw_archives_distributed": false,
+  "github_published": false
+}

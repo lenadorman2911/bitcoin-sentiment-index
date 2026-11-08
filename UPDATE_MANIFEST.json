@@ -1,0 +1,76 @@
+{
+  "status": "ready_for_upload",
+  "published": false,
+  "files": [
+    {
+      "path": "README_SPOT_CRISIS_UPDATE.md",
+      "sha256": "aafc1a9ac958194c41b111312932c8852e369c80934844bc665c506b4aec586b",
+      "bytes": 1776
+    },
+    {
+      "path": "docs/DATA_PUBLICATION_NOTES.md",
+      "sha256": "c10b90520237428f0a1c1ae4ac12d1f80fb6c1a1e17fe0cb11161fd55c66d8f7",
+      "bytes": 3260
+    },
+    {
+      "path": "docs/MANUSCRIPT_RESULTS_MAP.md",
+      "sha256": "d9f87556c54834840d5f8bf29679c174e8d7567cddfb3aad6af0f74feec6a451",
+      "bytes": 4338
+    },
+    {
+      "path": "docs/SPOT_CRISIS_REPRODUCTION.md",
+      "sha256": "42bae2f1e7ba45078d30645f5b9eaec20ceab294b597186a2681a21b48c851ba",
+      "bytes": 5224
+    },
+    {
+      "path": "reproduction/spot_crisis/.gitignore",
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+      "bytes": 19
+    },
+    {
+      "path": "reproduction/spot_crisis/collect.py",
+      "sha256": "1b76c0a5c748173ea7d021eb8a5e17297e8c08a0cf002bf2df61659acab4fedd",
+      "bytes": 5168
+    },
+    {
+      "path": "reproduction/spot_crisis/reference/component_weights.csv",
+      "sha256": "22e3c2b4e41e154629d54aa8c27a4e570e61ccee215500014af53f787242f711",
+      "bytes": 2570
+    },
+    {
+      "path": "reproduction/spot_crisis/reference/crisis_readings.csv",
+      "sha256": "dde7ca35bdee72616b1c59deb008a46eb8d8defa9fd4ddf0371fcbe5fa63b068",
+      "bytes": 460
+    },
+    {
+      "path": "reproduction/spot_crisis/reference/input_manifest.json",
+      "sha256": "3b066c5c024423ac949af07903a79db0d5fb60db34fa9f4256c3a5d2d63d25f1",
+      "bytes": 952
+    },
+    {
+      "path": "reproduction/spot_crisis/reference/package_validation.json",
+      "sha256": "45ef31e496bdb54a3cf5689eb1f9258e1860f4597475af255e9d3e57bec873ef",
+      "bytes": 930
+    },
+    {
+      "path": "reproduction/spot_crisis/reference/spot_archive_manifest.csv",
+      "sha256": "14b05b9fbd26c0536247dca108f837c77c443b066b06f8fd7468a39c671e3bae",
+      "bytes": 18349
+    },
+    {
+      "path": "reproduction/spot_crisis/reproduce.py",
+      "sha256": "9e3978b3bf0407e71cd94a87972390bd24ee7d3a93e5858562929e1565291e96",
+      "bytes": 9274
+    },
+    {
+      "path": "reproduction/spot_crisis/requirements.txt",
+      "sha256": "d400734a80ed09000d90321015eb256df9b3e38a0182c891c3f1e6c662c565c2",
+      "bytes": 30
+    },
+    {
+      "path": "reproduction/spot_crisis/test_reproduction.py",
+      "sha256": "1c521a99b5bd134206b8381a28712392f7e77e36f40c47ec3e96f341ed1b9feb",
+      "bytes": 2720
+    }
+  ]
+}
