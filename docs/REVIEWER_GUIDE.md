@@ -32,3 +32,9 @@ The complete merged empirical input is not provided by this documentation. It do
 ## Checking these extracts
 
 The accompanying `DOCUMENTATION_AUDIT.json` records SHA-256 identities of the existing source files used for the readable extracts, row counts, and the maximum CW group-sum error. It is a documentation check, not independent replication of the article's empirical results.
+
+## Spot crisis reproduction supplement
+
+[Spot crisis reproduction](SPOT_CRISIS_REPRODUCTION.md)
+
+This separate supplement extends the earlier documentation by reproducing the retrospective LUNA and FTX spot-volume diagnostics. It compares the original volume component with volume exclusion and replacement by spot taker-buy share. Weights are re-estimated for each construction.
