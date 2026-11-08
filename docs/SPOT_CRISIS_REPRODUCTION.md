@@ -64,3 +64,9 @@ The script checks all six scores and all 26 component weights against the archiv
 The statistical suite, allocation tests, and complete Exhibit 4 EW/full-index results use the existing repository workflow. This focused extension reproduces the six reduced CW values above. See [the result map](MANUSCRIPT_RESULTS_MAP.md) for the distinction.
 
 Code follows the repository's MIT license. Source datasets retain their own terms. See [data publication notes](DATA_PUBLICATION_NOTES.md).
+
+## Frozen public spot input
+
+[Download and verify the public spot-volume dataset](../data/public/binance_spot/README.md).
+
+The frozen CSV can be passed directly to `--spot-input` instead of rebuilding the monthly archives. Its source license is CC BY-NC-SA 4.0.
