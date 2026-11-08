@@ -88,3 +88,9 @@ Original project code is provided under MIT; see `LICENSE`. Third-party software
 [Spot crisis reproduction](docs/SPOT_CRISIS_REPRODUCTION.md)
 
 This supplement to the earlier documentation reproduces the retrospective LUNA and FTX crisis diagnostics using historical Bitcoin spot taker-buy volume.
+
+## Public spot-volume data
+
+[Frozen Binance spot volume and taker-buy share](data/public/binance_spot/README.md)
+
+The public CSV provides the spot-volume input for the retrospective LUNA and FTX diagnostic. Source attribution, changes, and the CC BY-NC-SA 4.0 data license are documented beside the file. The complete prepared input is still required for the other index components.
