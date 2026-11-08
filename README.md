@@ -81,3 +81,10 @@ Original project code is provided under MIT; see `LICENSE`. Third-party software
 - [Reproducibility guide for reviewers](docs/REVIEWER_GUIDE.md)
 - [CW weights for all original specifications](docs/CW_BASELINE_WEIGHTS.md)
 - [Reddit lexicon: all 36 additions and scores](docs/REDDIT_LEXICON.md)
+
+
+## Spot crisis reproduction
+
+[Spot crisis reproduction](docs/SPOT_CRISIS_REPRODUCTION.md)
+
+This supplement to the earlier documentation reproduces the retrospective LUNA and FTX crisis diagnostics using historical Bitcoin spot taker-buy volume.
