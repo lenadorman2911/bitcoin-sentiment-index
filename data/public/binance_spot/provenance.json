@@ -1,0 +1,35 @@
+{
+  "dataset": "Binance BTCUSDT spot daily quote volume and taker-buy share",
+  "file": "btc_spot_taker_buy_daily_2017_2026.csv",
+  "sha256": "8e013cd7929bcca674f452bf690699c50f1068d18d9eeeaee2bca5ac78ac9278",
+  "bytes": 220227,
+  "rows": 3297,
+  "start": "2017-08-17",
+  "end": "2026-08-26",
+  "timezone": "UTC",
+  "original_download_date": "2026-10-25",
+  "release_prepared_date": "2026-11-08",
+  "source": "Binance Vision / Binance Public Data",
+  "source_urls": [
+    "https://data.binance.vision/",
+    "https://github.com/binance/binance-public-data"
+  ],
+  "terms_url": "https://github.com/binance/binance-public-data/blob/master/TERMS_AND_CONDITIONS.md",
+  "license": "CC-BY-NC-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution": "Source: Binance Vision, BTCUSDT spot daily klines, archived 25 October 2026. Quote-volume fields selected and taker-buy share calculated by Elena Dorman.",
+  "changes": [
+    "Selected quote-volume fields",
+    "Converted kline open times to UTC dates",
+    "Combined monthly files",
+    "Restricted end date to 26 August 2026",
+    "Calculated taker_buy_usdt / volume_usdt"
+  ],
+  "missing_values_filled": false,
+  "source_archives": 109,
+  "archive_manifest": "source_archive_manifest.csv",
+  "archive_manifest_sha256": "14b05b9fbd26c0536247dca108f837c77c443b066b06f8fd7468a39c671e3bae",
+  "original_csv_bytes_preserved": true,
+  "complete_index_input": false,
+  "github_published": false
+}

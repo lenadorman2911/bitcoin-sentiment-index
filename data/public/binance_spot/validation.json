@@ -1,0 +1,26 @@
+{
+  "checked_date": "2026-11-08",
+  "status": "passed",
+  "rows": 3297,
+  "unique_daily_dates": true,
+  "missing_values": 0,
+  "nonnegative_volume_values": true,
+  "taker_buy_does_not_exceed_total": true,
+  "share_range": [
+    0.1749056601188972,
+    0.8117077176568593
+  ],
+  "maximum_share_absolute_error": 1.6653345369377348e-16,
+  "csv_sha256": "8e013cd7929bcca674f452bf690699c50f1068d18d9eeeaee2bca5ac78ac9278",
+  "byte_identical_to_previously_verified_archive_reconstruction": true,
+  "source_archives_previously_checksum_verified": 109,
+  "crisis_scores_reproduced": 6,
+  "component_weights_reproduced": 26,
+  "crisis_maximum_absolute_errors": {
+    "score": 0.0,
+    "raw_index": 1.5543122344752192e-15,
+    "weight": 8.326672684688674e-17
+  },
+  "compatibility": "Accepted without changes by reproduction/spot_crisis/reproduce.py",
+  "private_prepared_input_used_for_local_validation_only": true
+}
